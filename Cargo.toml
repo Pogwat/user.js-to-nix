@@ -1,0 +1,11 @@
+[package]
+name = "ff-format"
+version = "0.1.0"
+edition = "2024"
+
+[profile.release]
+opt-level = "z"   # Optimize for size
+lto = true #remove unessecary code
+strip = true # strip debug symbols
+codegen-units = 1 #split crate into multipe compile units
+panic = "abort" # remove panic code
