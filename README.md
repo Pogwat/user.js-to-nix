@@ -43,7 +43,7 @@ rustPlatform.buildRustPackage rec {
     owner = "Pogwat"; 
     repo = "firefox-js-format"; 
     rev = "v${version}"; 
-    hash = "sha256-0yX233J53vWp4/grtDesVxwa0kamOM8MUI6WOidyzGE="; \
+    hash = "sha256-0yX233J53vWp4/grtDesVxwa0kamOM8MUI6WOidyzGE="; 
    }; 
    cargoLock = { 
      lockFile = "${src}/Cargo.lock"; 
