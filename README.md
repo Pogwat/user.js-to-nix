@@ -41,7 +41,7 @@ rustPlatform.buildRustPackage rec {
  version = "0.1.0"; 
   src =  fetchFromGitHub { 
     owner = "Pogwat"; 
-    repo = "firefox-js-format"; 
+    repo = "user.js-to-nix"; 
     rev = "v${version}"; 
     hash = "sha256-0yX233J53vWp4/grtDesVxwa0kamOM8MUI6WOidyzGE="; 
    }; 
@@ -51,7 +51,7 @@ rustPlatform.buildRustPackage rec {
   
    meta = { 
      description = "firefox user.js -> nix attributes "; 
-     homepage = "https://github.com/Pogwat/firefox-js-format/"; 
+     homepage = "https://github.com/Pogwat/user.js-to-nix/"; 
      license = lib.licenses.gpl3Only; 
      platforms = lib.platforms.linux; 
      maintainers = with lib.maintainers;  [];  
