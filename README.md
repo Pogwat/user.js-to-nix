@@ -1,4 +1,4 @@
-# firefox-js-format
+# user.js-to-nix 
 A simple rust program (≈ 50 lines) that takes a input user.js 
 and outputs the userprefs formatted to a nix attribute set 
 into a output file
@@ -17,12 +17,12 @@ Or build it locally with Cargo:
 
 Clone repo 
 ```bash
-git clone https://github.com/Pogwat/firefox-js-format 
+git clone https://github.com/Pogwat/user.js-to-nix 
 ```
 
 Move into Directory 
 ```bash
-cd firefox-js-format 
+cd user.js-to-nix
 ```
 
 Build Contents of src using cargo 
