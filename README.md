@@ -7,6 +7,8 @@ into a output file
 ff-format [input_file] [output_file]
 no --help or complex cli arguments right now
 
+![screenshoot](images/ff-format-screenshot.png)
+
 ## Installation
 
 ### Precompiled Binaries
